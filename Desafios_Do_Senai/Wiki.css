@@ -1,0 +1,38 @@
+body {
+    background-color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-align: center;
+    margin: 0; 
+    padding: 0;
+}
+header {
+    background-color: #1a1a1a;
+    padding: 15px 0;
+}
+
+
+img{
+
+    text-align: left;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    columns: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0;           
+}
+  a {
+    color: green;
+    text-decoration: none;
+}
+.Brawlers {     
+    justify-content: center;
+    gap: 20px;              
+    padding: 20px;
+}
