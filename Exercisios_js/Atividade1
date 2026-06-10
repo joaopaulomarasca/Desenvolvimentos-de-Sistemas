@@ -1,0 +1,12 @@
+HTML : <h1 id="titulo">Bem-vindo!</h1>
+<p class="descricao">Esta é a descrição da página.</p>
+<button id="btn">Clique aqui</button>
+
+JS: const titulo = document.querySelector("#titulo");
+console.log(titulo.textContent);
+
+const paragrafo = document.querySelector(".descricao");
+console.log(paragrafo.textContent);
+
+const botao = document.querySelector("button");
+console.log(botao.tagName)
