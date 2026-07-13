@@ -12,8 +12,6 @@ async function minhaFuncao() {
 
     try {
 
-        // Aqui fica tudo que queremos tentar fazer
-        // Se qualquer linha aqui der erro, o catch captura
 
         await client.connect();
         const resultado = await client.query('SELECT * FROM itens');
@@ -21,14 +19,10 @@ async function minhaFuncao() {
 
     } catch (erro) {
 
-        // Se algo deu errado no try, cai aqui
-        // O erro tem uma mensagem que nos diz o que aconteceu
         console.log('❌ Erro:', erro.message);
 
     } finally {
 
-        // Isso SEMPRE executa — deu certo ou não
-        // É aqui que fechamos a conexão com o banco
         await client.end();
 
     }
