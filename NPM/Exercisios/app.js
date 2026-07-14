@@ -1,4 +1,4 @@
-const mysql = require("mysql2/promise");
+const mysql = require("pg");
 
 async function main() {
   let connection;
@@ -6,8 +6,8 @@ async function main() {
   try {
     connection = await mysql.createConnection({
       host: "localhost",
-      user: "root",
-      password: "SUA_SENHA",
+      user: "localuser",
+      password: "root",
       database: "escola_db",
     });
 
